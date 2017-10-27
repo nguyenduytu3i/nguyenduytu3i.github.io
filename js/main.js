@@ -368,17 +368,39 @@ new(function(){});var f=j.$Jease$={$Swing:function(a){return-c.cos(a*c.PI)/2+.5}
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
-        asNavFor: '.product-thumbs',
-        autoplay: true
+        asNavFor: '.product-thumbs'
       });
 
       $('.product-thumbs').slick({
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 1,
-        asNavFor: '.product-photo',
-        dots: false,
         arrows: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        asNavFor: '.product-photo',
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 6,
+              slidesToScroll: 1,
+              infinite: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          }
+        ]
       });
 
     }
@@ -403,7 +425,7 @@ new(function(){});var f=j.$Jease$={$Swing:function(a){return-c.cos(a*c.PI)/2+.5}
     }
 
     $('.owl-product').owlCarousel({
-      loop:true,
+      loop: false,
       margin: 18,
       nav: true,
       navText: ["<i class='fa fa-caret-left'></i>","<i class='fa fa-caret-right'></i>"],
@@ -416,14 +438,13 @@ new(function(){});var f=j.$Jease$={$Swing:function(a){return-c.cos(a*c.PI)/2+.5}
           items:3
         },
         1000:{
-          items:5,
-          loop:false
+          items:5
         }
       }
     });
 
     $('.owl-new').owlCarousel({
-      loop:true,
+      loop: false,
       margin: 0,
       nav: true,
       navText: ["<i class='fa fa-caret-left'></i>","<i class='fa fa-caret-right'></i>"],
