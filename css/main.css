@@ -14245,6 +14245,10 @@ p.a-menu {
     overflow: hidden;
 }
 
+.el-slideshow.slider-main .slick-dots li {
+    margin: 0;
+}
+
 #home-intro {
     font-size: 13px;
     font-style: italic;

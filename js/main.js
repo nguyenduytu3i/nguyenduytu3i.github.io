@@ -416,10 +416,10 @@ new(function(){});var f=j.$Jease$={$Swing:function(a){return-c.cos(a*c.PI)/2+.5}
     //Main slider
     if ($('#js-slider-main').length) {
       $('#js-slider-main').slick({
+        arrows: false,
         dots: true,
         infinite: true,
         speed: 500,
-        fade: true,
         cssEase: 'linear'
       });
     }
