@@ -14109,6 +14109,9 @@ p.a-menu {
         padding: 5px 0;
         background-color: #fff;
     }
+    .menu-wrapper .menuzord-menu > li > .megamenu {
+        padding-bottom: 0;
+    }
     .menu-wrapper.sticking {
         background-color: #fff;
     }
