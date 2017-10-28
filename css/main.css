@@ -14177,6 +14177,10 @@ p.a-menu {
     min-height: 30px;
 }
 
+.megamenu .box .box-title {
+    font-weight: bold;
+}
+
 .megamenu .owl-carousel .owl-item img {
     max-width: 100% !important;
 }
