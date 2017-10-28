@@ -12012,6 +12012,10 @@ abbr[title], acronym[title] {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 ol,
 ul {
     margin: 0;
@@ -13513,6 +13517,14 @@ input[type="checkbox"]:focus {
     .shop-pagination, .blog-pagination {
         text-align: center;
     }
+    .featured-image .featured-image-content {
+        font-size: 12px;
+    }
+    .featured-image .featured-image-content h2,
+    .featured-image .featured-image-content h3 {
+        font-size: 16px;
+        min-height: 10px;
+    }
 }
 
 @media (max-width: 721px) {
@@ -13572,6 +13584,13 @@ input[type="checkbox"]:focus {
     }
     .xs-full {
         width: 100% !important;
+    }
+    .featured-image .featured-image-content h2,
+    .featured-image .featured-image-content h3 {
+        margin-top: 35px;
+    }
+    .featured-image .featured-image-content .category-info {
+        display: none !important;
     }
 }
 
