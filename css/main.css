@@ -14525,11 +14525,13 @@ input[type="checkbox"]:focus {
 
 .header-top {
     position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .header-top .logo {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
 .header-top .header-static {
