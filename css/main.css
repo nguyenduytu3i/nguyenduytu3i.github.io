@@ -14244,6 +14244,22 @@ input[type="checkbox"]:focus {
     font-weight: bold;
 }
 
+.control-blog {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0 5px 0;
+}
+
+.control-blog a {
+    display: inline-block;
+}
+
+.control-blog a i {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
 @media (min-width: 1200px) {
     .sidebar.sidebar-shop .sidebar-inner {
         padding-left: 40px;
@@ -14521,6 +14537,97 @@ input[type="checkbox"]:focus {
 
 .pswp__bg {
     background: rgba(0, 0, 0, 0.9);
+}
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+}
+
+.modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.custom-modal .modal-dialog {
+    width: 800px;
+    height: 600px;
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    .custom-modal .modal-dialog {
+        width: auto;
+        height: auto;
+    }
+}
+
+.custom-modal .modal-dialog .modal-content {
+    border-radius: 0;
+    background-color: #0c8c46;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    padding: 25px;
+}
+
+.custom-modal .modal-dialog .modal-content .modal-body {
+    border: 0;
+    padding: 35px;
+    position: relative;
+    border: 2px solid #fff;
+}
+
+.custom-modal .modal-dialog .modal-content .modal-body .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff !important;
+    font-weight: normal;
+    opacity: 1;
+}
+
+.custom-modal .modal-dialog .modal-content .modal-body h3 {
+    margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+    .custom-modal .modal-dialog .modal-content .modal-body {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.custom-modal .modal-dialog .modal-content .modal-body h5 {
+    line-height: 1.4;
+}
+
+.custom-modal .modal-dialog .modal-content .modal-body form {
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+
+.custom-modal .modal-dialog .modal-content .modal-body form .btn {
+    border-radius: 0;
+    border: 1px solid #fff;
+    min-width: 120px;
+    text-transform: uppercase;
+}
+
+.custom-modal .modal-dialog .modal-content .modal-footer {
+    border-top: 0;
 }
 
 .header-top {

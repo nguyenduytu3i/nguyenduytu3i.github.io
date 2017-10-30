@@ -305,7 +305,7 @@ new(function(){});var f=j.$Jease$={$Swing:function(a){return-c.cos(a*c.PI)/2+.5}
 
   // document ready
   $(document).ready(function() {
-
+    
     // Slideshow
     if ($('#jssor_1').length) {
       var jssor_1_SlideshowTransitions = [
@@ -670,4 +670,23 @@ new(function(){});var f=j.$Jease$={$Swing:function(a){return-c.cos(a*c.PI)/2+.5}
       items: 1
     });
   });
+
 })(jQuery);
+
+// $(window).load(function(){
+//   $('#modal-onload').modal('show');
+// });
+
+// init
+jQuery(document).ready(function(){
+
+  // Start
+  // sessionStorage.getItem('key');
+  if (sessionStorage.getItem("story") !== 'true') {
+    // sessionStorage.setItem('key', 'value'); pair
+    sessionStorage.setItem("story", "true");
+    // Calling the bootstrap modal
+    $('#modal-onload').modal('show');
+    }
+  // End
+});
