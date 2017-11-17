@@ -15440,3 +15440,50 @@ p.a-menu {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Table */
+table, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+.table-bordered,
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+    border: 0 !important;
+}
+
+table,
+table.table-bordered {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1 !important;
+}
+
+table,
+table * {
+    font-family: Arial !important;
+}
+
+table tbody tr {
+    border-top: 1px dotted #d7d7d7;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table td {
+    border-top: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    padding: 10px;
+}
